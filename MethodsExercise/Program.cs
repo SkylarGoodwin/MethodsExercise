@@ -4,11 +4,11 @@
     {
         Console.WriteLine("What is your name?");
         string playerName = Console.ReadLine();
-        Console.WriteLine("Hello, ", playerName,
+        Console.WriteLine("Hello, " + playerName +
         ". what were you looking to purchase today?");
         string goalItem = Console.ReadLine();
-        Console.WriteLine("A ", goalItem,
-        "Eh?, an adventurer of taste");
+        Console.WriteLine("A " + goalItem +
+        " Eh?, an adventurer of taste");
     }
     public static int Sum( int summand1, int summand2)
     {
